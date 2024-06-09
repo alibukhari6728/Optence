@@ -7,3 +7,6 @@ __pycache__/
 .idea/
 *.so
 data/
+models/
+journal.txt
+reports/

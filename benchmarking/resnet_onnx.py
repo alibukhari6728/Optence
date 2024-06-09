@@ -2,9 +2,13 @@ import onnxruntime as ort
 import numpy as np
 import time
 
-# Load the ONNX model
+# Check available providers
+print("Available providers:", ort.get_available_providers())
+
+# Load the ONNX model with GPU (CUDA) execution provider if available
 onnx_model_path = "models/resnet50.onnx"
-session = ort.InferenceSession(onnx_model_path)
+providers = ['CUDAExecutionProvider'] #if 'CUDAExecutionProvider' in ort.get_available_providers()# else ['CPUExecutionProvider']
+session = ort.InferenceSession(onnx_model_path, providers=providers)
 
 # Prepare input data
 input_image = np.random.randn(1, 3, 224, 224).astype(np.float32)

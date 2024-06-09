@@ -3,10 +3,10 @@ import torchvision.models as models
 import time
 
 # Load the PyTorch model
-model = models.resnet50(pretrained=True).eval()
+model = models.resnet50(pretrained=True).eval().cuda()
 
 # Prepare input data
-input_image = torch.randn(1, 3, 224, 224)
+input_image = torch.randn(1, 3, 224, 224).cuda()
 
 # Warm-up
 for _ in range(10):
