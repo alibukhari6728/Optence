@@ -1,6 +1,19 @@
 # Optence
 AI Inference Frameworks; Custom CUDA kernels; and Nsight Suite.
 
+## Sequence of Delivery:
+
+- [X] Part 1: OptCNN
+
+- [ ] Part 4: Custom-CUDA Model ( ETA 14/06/2024)
+
+- [ ] Part 2: OptLLM  ( ETA 16/06/2024)
+
+- [ ] Part 3: Custom-CUDA Kernels ( ETA 17/06/2024)
+
+
+##############################################################
+
 ### Part 1: OptCNN
 
 Optimizing Inference Performance for a Deep Convolutional Neural Network, supported by profiling with Nsight-Systems.
@@ -42,13 +55,3 @@ Goals:
 
 -----------------------------------------------------------------------------------------------
 
-## Sequence of Delivery:
-
-
-[X] Part 1: OptCNN
-
-[ ] Part 4: Custom-CUDA Model ( ETA 14/06/2024)
-
-[ ] Part 2: OptLLM  ( ETA 16/06/2024)
-
-[ ] Part 3: Custom-CUDA Kernels ( ETA 17/06/2024)
