@@ -5,13 +5,13 @@ AI Inference Frameworks; Custom CUDA kernels; and Nsight Suite.
 
 - [X] Part 1: OptCNN (refer to optCNN.ipynb)
 
-- [ ] Part 4: Custom-CUDA Model ( ETA 14/06/2024)
+- [ ] Part 4: Building Custom-CUDA Model ( ETA 14/06/2024)
 
 - [ ] Part 2: OptLLM  ( ETA 16/06/2024)
 
-- [ ] Part 3: Custom-CUDA Kernels ( ETA 17/06/2024)
+- [ ] Part 3: Integrating Custom-CUDA Kernels ( ETA 17/06/2024)
 
-- [ ] Part 5: Custom-CUDA Kernels ( ETA 21/06/2024)
+- [ ] Part 5: Always Room for Improvement ( ETA 21/06/2024)
 
 ## Division
 
@@ -36,7 +36,7 @@ Target Frameworks:
 - TensorRT
 - TensorRT-LLM
 
-### Part 3: Custom-CUDA Kernels
+### Part 3: Integrating Custom-CUDA Kernels
 
 Optimizing Inference Performance for a CNN and/or a Transformer.
 
@@ -46,7 +46,7 @@ Goals:
 - Build and test various versions of the same kernel, with increasingly better memory and kernel management.
 - Profile using Nsight-Systems AND Nsight-Compute to achieve best possible kernel.
 
-### Part 4: Custom-CUDA Model
+### Part 4: Building Custom-CUDA Model
 
 Build a custom neural network in CUDA & C++ from scratch. 
 
@@ -56,7 +56,7 @@ Goals:
 - Apply advanced concepts in kernel optimization, as well as good memory access patterns.
 - Profile using Nsight-Systems AND Nsight-Compute to achieve best possible kernel.
 
-### Part 5: Improvement
+### Part 5: Always Room for Improvement
 
 Now that everything has been set-up; find ways to improve each of the approaches further.
 
