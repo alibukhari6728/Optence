@@ -11,8 +11,9 @@ AI Inference Frameworks; Custom CUDA kernels; and Nsight Suite.
 
 - [ ] Part 3: Custom-CUDA Kernels ( ETA 17/06/2024)
 
+- [ ] Part 5: Custom-CUDA Kernels ( ETA 21/06/2024)
 
-##############################################################
+## Division
 
 ### Part 1: OptCNN
 
@@ -55,5 +56,9 @@ Goals:
 - Apply advanced concepts in kernel optimization, as well as good memory access patterns.
 - Profile using Nsight-Systems AND Nsight-Compute to achieve best possible kernel.
 
------------------------------------------------------------------------------------------------
+### Part 5: Improvement
 
+Now that everything has been set-up; find ways to improve each of the approaches further.
+
+- Look into research literature
+- Take another look into Nvidia Documentation
