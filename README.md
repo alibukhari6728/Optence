@@ -62,3 +62,4 @@ Now that everything has been set-up; find ways to improve each of the approaches
 
 - Look into research literature
 - Take another look into Nvidia Documentation
+- Restructure repo into a publicly useful form. Merge various parts meaningfully and include setup instructions etc.
