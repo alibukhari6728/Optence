@@ -3,7 +3,7 @@ AI Inference Frameworks; Custom CUDA kernels; and Nsight Suite.
 
 ## Sequence of Delivery:
 
-- [X] Part 1: OptCNN
+- [X] Part 1: OptCNN (refer to optCNN.ipynb)
 
 - [ ] Part 4: Custom-CUDA Model ( ETA 14/06/2024)
 
@@ -17,6 +17,8 @@ AI Inference Frameworks; Custom CUDA kernels; and Nsight Suite.
 ### Part 1: OptCNN
 
 Optimizing Inference Performance for a Deep Convolutional Neural Network, supported by profiling with Nsight-Systems.
+
+This part has been completed and documented in optCNN.ipynb
 
 Target Frameworks:
 - PyTorch 
